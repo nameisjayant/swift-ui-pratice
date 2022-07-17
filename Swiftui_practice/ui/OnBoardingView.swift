@@ -26,7 +26,7 @@ extension OnBoadData {
     }
 }
 
-struct ContentView: View {
+struct OnBoardingView: View {
     
     init(){
         UIPageControl.appearance().currentPageIndicatorTintColor = .black
@@ -41,7 +41,6 @@ struct ContentView: View {
             TabView(selection : $pager){
                 
                 ForEach(data.indices) { index in
-                    
                     VStack{
                         
                         Image(data[index].image)
@@ -89,6 +88,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OnBoardingView()
     }
 }
