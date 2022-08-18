@@ -12,7 +12,7 @@ struct OnBoadData : Identifiable {
     var id = UUID()
     var title:String
     var desc:String
-    var image:String
+    var image:String = ""
     
 }
 
