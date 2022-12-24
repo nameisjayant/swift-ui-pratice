@@ -17,6 +17,7 @@
 		9FD5B38B28840D8C00D133F1 /* Swiftui_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B38A28840D8C00D133F1 /* Swiftui_practiceUITests.swift */; };
 		9FD5B38D28840D8C00D133F1 /* Swiftui_practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B38C28840D8C00D133F1 /* Swiftui_practiceUITestsLaunchTests.swift */; };
 		9FD5B39B28841D7F00D133F1 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B39A28841D7F00D133F1 /* CheckBoxView.swift */; };
+		F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		9FD5B38A28840D8C00D133F1 /* Swiftui_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_practiceUITests.swift; sourceTree = "<group>"; };
 		9FD5B38C28840D8C00D133F1 /* Swiftui_practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9FD5B39A28841D7F00D133F1 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				9FD5B39A28841D7F00D133F1 /* CheckBoxView.swift */,
 				9F20711F2885829B0069BE9D /* StackView.swift */,
 				9F5F405A28AE8EFD0030AFA4 /* ColorView.swift */,
+				F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				9FD5B39B28841D7F00D133F1 /* CheckBoxView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
 				9F2071202885829B0069BE9D /* StackView.swift in Sources */,
+				F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */,
 				9F5F405B28AE8EFD0030AFA4 /* ColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
