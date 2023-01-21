@@ -21,6 +21,7 @@
 		F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */; };
 		F5BAC98A2958691A000DD1FF /* EditTextLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC9892958691A000DD1FF /* EditTextLayout.swift */; };
 		F5BAC98D2958A70A000DD1FF /* LoginScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC98C2958A70A000DD1FF /* LoginScreenOne.swift */; };
+		F5C84C44297C52D300D240B0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C43297C52D300D240B0 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLayout.swift; sourceTree = "<group>"; };
 		F5BAC9892958691A000DD1FF /* EditTextLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextLayout.swift; sourceTree = "<group>"; };
 		F5BAC98C2958A70A000DD1FF /* LoginScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenOne.swift; sourceTree = "<group>"; };
+		F5C84C43297C52D300D240B0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		9FD5B39928841D6D00D133F1 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				F5C84C42297C52BE00D240B0 /* widgets */,
 				F5BAC98B2958A6FC000DD1FF /* login_page */,
 				9FD5B37128840D8700D133F1 /* OnBoardingView.swift */,
 				9FD5B39A28841D7F00D133F1 /* CheckBoxView.swift */,
@@ -162,6 +165,14 @@
 				F5BAC98C2958A70A000DD1FF /* LoginScreenOne.swift */,
 			);
 			path = login_page;
+			sourceTree = "<group>";
+		};
+		F5C84C42297C52BE00D240B0 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F5C84C43297C52D300D240B0 /* TextView.swift */,
+			);
+			path = widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */,
 				F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */,
 				9F5F405B28AE8EFD0030AFA4 /* ColorView.swift in Sources */,
+				F5C84C44297C52D300D240B0 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
