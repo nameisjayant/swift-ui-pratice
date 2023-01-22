@@ -22,6 +22,7 @@
 		F5BAC98A2958691A000DD1FF /* EditTextLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC9892958691A000DD1FF /* EditTextLayout.swift */; };
 		F5BAC98D2958A70A000DD1FF /* LoginScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC98C2958A70A000DD1FF /* LoginScreenOne.swift */; };
 		F5C84C44297C52D300D240B0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C43297C52D300D240B0 /* TextView.swift */; };
+		F5C84C46297D59B900D240B0 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C45297D59B900D240B0 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F5BAC9892958691A000DD1FF /* EditTextLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextLayout.swift; sourceTree = "<group>"; };
 		F5BAC98C2958A70A000DD1FF /* LoginScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenOne.swift; sourceTree = "<group>"; };
 		F5C84C43297C52D300D240B0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F5C84C45297D59B900D240B0 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				F5C84C43297C52D300D240B0 /* TextView.swift */,
+				F5C84C45297D59B900D240B0 /* ShapesView.swift */,
 			);
 			path = widgets;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			files = (
 				F5BAC98A2958691A000DD1FF /* EditTextLayout.swift in Sources */,
 				9FD5B37228840D8700D133F1 /* OnBoardingView.swift in Sources */,
+				F5C84C46297D59B900D240B0 /* ShapesView.swift in Sources */,
 				9FD5B39B28841D7F00D133F1 /* CheckBoxView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
 				9F2071202885829B0069BE9D /* StackView.swift in Sources */,
