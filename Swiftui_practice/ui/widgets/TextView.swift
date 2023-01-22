@@ -9,15 +9,20 @@ import SwiftUI
 
 struct TextView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World! , hello how are you man")
             .padding()
-            .font(.largeTitle)
+           // .font(.largeTitle)
+            .font(.system(size: 30,weight: .bold,design: .monospaced))
             .fontWeight(.semibold)
             .foregroundColor(.pink)
             .italic()
-            .background(.black)
+           // .strikethrough(color : .yellow)
+            //.underline(color: .yellow)
+            //.background(.black)
             .cornerRadius(15)
-            .shadow(color: .pink.opacity(0.4), radius: 5,x: 0,y:5)
+            //.shadow(color: .pink.opacity(0.4), radius: 5,x: 0,y:5)
+            .multilineTextAlignment(.center)
+            .baselineOffset(40)
             
             
         
