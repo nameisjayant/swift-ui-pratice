@@ -23,6 +23,8 @@
 		F5BAC98D2958A70A000DD1FF /* LoginScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC98C2958A70A000DD1FF /* LoginScreenOne.swift */; };
 		F5C84C44297C52D300D240B0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C43297C52D300D240B0 /* TextView.swift */; };
 		F5C84C46297D59B900D240B0 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C45297D59B900D240B0 /* ShapesView.swift */; };
+		F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C49297F9C4100D240B0 /* ButtonScreenView.swift */; };
+		F5C84C4C297FB1A300D240B0 /* LayoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C4B297FB1A300D240B0 /* LayoutWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		F5BAC98C2958A70A000DD1FF /* LoginScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenOne.swift; sourceTree = "<group>"; };
 		F5C84C43297C52D300D240B0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		F5C84C45297D59B900D240B0 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		F5C84C49297F9C4100D240B0 /* ButtonScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScreenView.swift; sourceTree = "<group>"; };
+		F5C84C4B297FB1A300D240B0 /* LayoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 			children = (
 				F5C84C43297C52D300D240B0 /* TextView.swift */,
 				F5C84C45297D59B900D240B0 /* ShapesView.swift */,
+				F5C84C49297F9C4100D240B0 /* ButtonScreenView.swift */,
+				F5C84C4B297FB1A300D240B0 /* LayoutWidget.swift */,
 			);
 			path = widgets;
 			sourceTree = "<group>";
@@ -312,9 +318,11 @@
 				9FD5B37228840D8700D133F1 /* OnBoardingView.swift in Sources */,
 				F5C84C46297D59B900D240B0 /* ShapesView.swift in Sources */,
 				9FD5B39B28841D7F00D133F1 /* CheckBoxView.swift in Sources */,
+				F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
 				9F2071202885829B0069BE9D /* StackView.swift in Sources */,
 				F5BAC98D2958A70A000DD1FF /* LoginScreenOne.swift in Sources */,
+				F5C84C4C297FB1A300D240B0 /* LayoutWidget.swift in Sources */,
 				F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */,
 				F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */,
 				9F5F405B28AE8EFD0030AFA4 /* ColorView.swift in Sources */,
