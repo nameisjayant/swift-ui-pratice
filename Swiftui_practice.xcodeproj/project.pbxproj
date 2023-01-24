@@ -25,6 +25,8 @@
 		F5C84C46297D59B900D240B0 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C45297D59B900D240B0 /* ShapesView.swift */; };
 		F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C49297F9C4100D240B0 /* ButtonScreenView.swift */; };
 		F5C84C4C297FB1A300D240B0 /* LayoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C4B297FB1A300D240B0 /* LayoutWidget.swift */; };
+		F5C84C4E297FC9DB00D240B0 /* TextFieldLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C4D297FC9DB00D240B0 /* TextFieldLayout.swift */; };
+		F5C84C50297FE2A200D240B0 /* NavigationDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C4F297FE2A200D240B0 /* NavigationDrawer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		F5C84C45297D59B900D240B0 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		F5C84C49297F9C4100D240B0 /* ButtonScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScreenView.swift; sourceTree = "<group>"; };
 		F5C84C4B297FB1A300D240B0 /* LayoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutWidget.swift; sourceTree = "<group>"; };
+		F5C84C4D297FC9DB00D240B0 /* TextFieldLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLayout.swift; sourceTree = "<group>"; };
+		F5C84C4F297FE2A200D240B0 /* NavigationDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,8 @@
 				F5C84C45297D59B900D240B0 /* ShapesView.swift */,
 				F5C84C49297F9C4100D240B0 /* ButtonScreenView.swift */,
 				F5C84C4B297FB1A300D240B0 /* LayoutWidget.swift */,
+				F5C84C4D297FC9DB00D240B0 /* TextFieldLayout.swift */,
+				F5C84C4F297FE2A200D240B0 /* NavigationDrawer.swift */,
 			);
 			path = widgets;
 			sourceTree = "<group>";
@@ -317,6 +323,7 @@
 				F5BAC98A2958691A000DD1FF /* EditTextLayout.swift in Sources */,
 				9FD5B37228840D8700D133F1 /* OnBoardingView.swift in Sources */,
 				F5C84C46297D59B900D240B0 /* ShapesView.swift in Sources */,
+				F5C84C4E297FC9DB00D240B0 /* TextFieldLayout.swift in Sources */,
 				9FD5B39B28841D7F00D133F1 /* CheckBoxView.swift in Sources */,
 				F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
@@ -325,6 +332,7 @@
 				F5C84C4C297FB1A300D240B0 /* LayoutWidget.swift in Sources */,
 				F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */,
 				F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */,
+				F5C84C50297FE2A200D240B0 /* NavigationDrawer.swift in Sources */,
 				9F5F405B28AE8EFD0030AFA4 /* ColorView.swift in Sources */,
 				F5C84C44297C52D300D240B0 /* TextView.swift in Sources */,
 			);
