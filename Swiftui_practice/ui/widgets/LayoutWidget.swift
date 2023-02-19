@@ -33,7 +33,6 @@ struct LayoutWidget: View {
 //            .frame(maxHeight: .infinity,
 //                   alignment: .bottom)
        
-        NavigationStack{
             ZStack{
                 Text("\(counter)")
                     .font(.largeTitle)
@@ -47,12 +46,9 @@ struct LayoutWidget: View {
                                               .frame(width: 70, height: 70)
                                       }
                                       .padding([.trailing, .bottom], 10)
-                }.frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .trailing)
+                }.frame(maxWidth: .infinity,alignment: .trailing)
 
             }
-            .frame(maxWidth: .infinity,maxHeight: .infinity,alignment : .topLeading)
-        }
-            
         
     }
 }

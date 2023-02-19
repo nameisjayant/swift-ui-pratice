@@ -19,13 +19,14 @@ struct ButtonScreenView: View {
                 }label: {
                     Text("Simple Button")
                         .frame(maxWidth:.infinity,maxHeight: 40)
+                        .font(.title3)
                 }
                 //.background(.black)
                 //.foregroundColor(.white)
                 .buttonStyle(.borderedProminent)
                 .tint(colorChange ? .mint : .red)
                 .buttonBorderShape(.roundedRectangle(radius: 8))
-                .controlSize(.small)
+                .controlSize(.large)
                 
         }.padding()
     

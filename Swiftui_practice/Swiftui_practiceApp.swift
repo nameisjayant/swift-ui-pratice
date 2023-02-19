@@ -11,7 +11,7 @@ import SwiftUI
 struct Swiftui_practiceApp: App {
     var body: some Scene {
         WindowGroup {
-            LayoutWidget()
+            TestOne()
         }
     }
 }
