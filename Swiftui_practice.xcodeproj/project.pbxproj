@@ -20,6 +20,7 @@
 		F5240FEA29B793E90045F6F2 /* ColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FE929B793E90045F6F2 /* ColumnView.swift */; };
 		F5240FEC29B795630045F6F2 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FEB29B795630045F6F2 /* RowView.swift */; };
 		F5240FEE29B796360045F6F2 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FED29B796360045F6F2 /* BoxView.swift */; };
+		F5240FF229B79D2F0045F6F2 /* EditTextLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FF129B79D2F0045F6F2 /* EditTextLayoutView.swift */; };
 		F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */; };
 		F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */; };
 		F5790C6029A23C1B0092AA9C /* TestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5790C5F29A23C1B0092AA9C /* TestOne.swift */; };
@@ -67,6 +68,7 @@
 		F5240FE929B793E90045F6F2 /* ColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnView.swift; sourceTree = "<group>"; };
 		F5240FEB29B795630045F6F2 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		F5240FED29B796360045F6F2 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		F5240FF129B79D2F0045F6F2 /* EditTextLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextLayoutView.swift; sourceTree = "<group>"; };
 		F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 		F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLayout.swift; sourceTree = "<group>"; };
 		F5790C5F29A23C1B0092AA9C /* TestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOne.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		9FD5B36E28840D8700D133F1 /* Swiftui_practice */ = {
 			isa = PBXGroup;
 			children = (
+				F5240FF029B79D1D0045F6F2 /* textfield */,
 				F5240FE829B793CC0045F6F2 /* arrangement */,
 				F5790C5E29A23BF60092AA9C /* mvvm_pattern */,
 				9FD5B39928841D6D00D133F1 /* ui */,
@@ -187,6 +190,14 @@
 				F5240FED29B796360045F6F2 /* BoxView.swift */,
 			);
 			path = arrangement;
+			sourceTree = "<group>";
+		};
+		F5240FF029B79D1D0045F6F2 /* textfield */ = {
+			isa = PBXGroup;
+			children = (
+				F5240FF129B79D2F0045F6F2 /* EditTextLayoutView.swift */,
+			);
+			path = textfield;
 			sourceTree = "<group>";
 		};
 		F5790C5E29A23BF60092AA9C /* mvvm_pattern */ = {
@@ -355,6 +366,7 @@
 				9FD5B39B28841D7F00D133F1 /* CheckBoxView.swift in Sources */,
 				F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
+				F5240FF229B79D2F0045F6F2 /* EditTextLayoutView.swift in Sources */,
 				9F2071202885829B0069BE9D /* StackView.swift in Sources */,
 				F5BAC98D2958A70A000DD1FF /* LoginScreenOne.swift in Sources */,
 				F5C84C4C297FB1A300D240B0 /* LayoutWidget.swift in Sources */,

@@ -18,7 +18,12 @@ struct BoxView: View {
                // Spacer()
                 Text("Three")
             }.frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .topLeading)
-        }.frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .center)
+                .padding(30)
+            Text("Hello world")
+                .frame(maxWidth: .infinity,alignment: .center)
+        }
+        .ignoresSafeArea()
+            
     }
 }
 
