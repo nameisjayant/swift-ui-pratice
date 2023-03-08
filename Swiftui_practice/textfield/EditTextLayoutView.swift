@@ -23,12 +23,24 @@ struct EditTextLayoutView: View {
                // .cornerRadius(10)
                 .disableAutocorrection(true)
                 .autocapitalization(.allCharacters)
-                .overlay(RoundedRectangle(cornerRadius: 10.0).strokeBorder(Color.black, style: StrokeStyle(lineWidth: 1.0)))
-
+//                .overlay(RoundedRectangle(cornerRadius: 10.0)
+//                    .strokeBorder(.red, style: StrokeStyle(lineWidth: 1.0))
+//
+//                )
+                .overlay(RoundedRectangle(cornerRadius: 10.0)
+                .strokeBorder(.teal,style: StrokeStyle(lineWidth: 3.0)))
+        
                 
 
             SecureField("Password", text: $password)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+              //  .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+                .disableAutocorrection(true)
+                .autocapitalization(.allCharacters)
+                .overlay(RoundedRectangle(cornerRadius: 10.0)
+                    .strokeBorder(.teal,style: StrokeStyle(lineWidth: 3.0))
+                )
+                .padding(.top,10)
             
         }.padding()
     }
