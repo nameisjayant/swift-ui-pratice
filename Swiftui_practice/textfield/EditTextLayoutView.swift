@@ -12,35 +12,36 @@ struct EditTextLayoutView: View {
     @State var password:String = ""
     var body: some View {
         VStack{
-            TextField("Username",text: $username,onEditingChanged: {change in
-                
-            },onCommit: {
-                
-            })
-             //   .textFieldStyle(RoundedBorderTextFieldStyle())
+            
+//            SecureField("Password",text:$password)
+//                .textFieldStyle(.roundedBorder)
+            
+//            TextField("Username",text: $username,onEditingChanged: {change in
+//
+//            },onCommit: {
+//
+//            }).textFieldStyle(.roundedBorder)
+            
+            TextField("Username",text: $username)
                 .padding()
-               // .border(.red,width: 2)
-               // .cornerRadius(10)
                 .disableAutocorrection(true)
                 .autocapitalization(.allCharacters)
-//                .overlay(RoundedRectangle(cornerRadius: 10.0)
-//                    .strokeBorder(.red, style: StrokeStyle(lineWidth: 1.0))
-//
-//                )
                 .overlay(RoundedRectangle(cornerRadius: 10.0)
                 .strokeBorder(.teal,style: StrokeStyle(lineWidth: 3.0)))
-        
+//
+//
+//
+//            SecureField("Password", text: $password)
+//              //  .textFieldStyle(.roundedBorder)
+//              //  .textFieldStyle(RoundedBorderTextFieldStyle())
+//                .padding()
+////                .disableAutocorrection(true)
+////                .autocapitalization(.allCharacters)
+//                .overlay(RoundedRectangle(cornerRadius: 10.0)
+//                    .strokeBorder(.teal,style: StrokeStyle(lineWidth: 3.0))
+//                )
+//                .padding(.top,10)
                 
-
-            SecureField("Password", text: $password)
-              //  .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
-                .disableAutocorrection(true)
-                .autocapitalization(.allCharacters)
-                .overlay(RoundedRectangle(cornerRadius: 10.0)
-                    .strokeBorder(.teal,style: StrokeStyle(lineWidth: 3.0))
-                )
-                .padding(.top,10)
             
         }.padding()
     }

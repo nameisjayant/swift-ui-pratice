@@ -22,6 +22,7 @@
 		F5240FEE29B796360045F6F2 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FED29B796360045F6F2 /* BoxView.swift */; };
 		F5240FF229B79D2F0045F6F2 /* EditTextLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FF129B79D2F0045F6F2 /* EditTextLayoutView.swift */; };
 		F5240FF729B851520045F6F2 /* RoundedRectangleShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FF629B851520045F6F2 /* RoundedRectangleShapeView.swift */; };
+		F5240FFB29B8C80A0045F6F2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FFA29B8C80A0045F6F2 /* ButtonView.swift */; };
 		F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */; };
 		F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */; };
 		F5790C6029A23C1B0092AA9C /* TestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5790C5F29A23C1B0092AA9C /* TestOne.swift */; };
@@ -71,6 +72,7 @@
 		F5240FED29B796360045F6F2 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 		F5240FF129B79D2F0045F6F2 /* EditTextLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextLayoutView.swift; sourceTree = "<group>"; };
 		F5240FF629B851520045F6F2 /* RoundedRectangleShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleShapeView.swift; sourceTree = "<group>"; };
+		F5240FFA29B8C80A0045F6F2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 		F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLayout.swift; sourceTree = "<group>"; };
 		F5790C5F29A23C1B0092AA9C /* TestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOne.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		9FD5B36E28840D8700D133F1 /* Swiftui_practice */ = {
 			isa = PBXGroup;
 			children = (
+				F5240FF929B8C7D70045F6F2 /* buttons */,
 				F5240FF329B850EF0045F6F2 /* shapes */,
 				F5240FF029B79D1D0045F6F2 /* textfield */,
 				F5240FE829B793CC0045F6F2 /* arrangement */,
@@ -209,6 +212,14 @@
 				F5240FF629B851520045F6F2 /* RoundedRectangleShapeView.swift */,
 			);
 			path = shapes;
+			sourceTree = "<group>";
+		};
+		F5240FF929B8C7D70045F6F2 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F5240FFA29B8C80A0045F6F2 /* ButtonView.swift */,
+			);
+			path = buttons;
 			sourceTree = "<group>";
 		};
 		F5790C5E29A23BF60092AA9C /* mvvm_pattern */ = {
@@ -376,6 +387,7 @@
 				F5240FF729B851520045F6F2 /* RoundedRectangleShapeView.swift in Sources */,
 				F5C84C4E297FC9DB00D240B0 /* TextFieldLayout.swift in Sources */,
 				9FD5B39B28841D7F00D133F1 /* CheckBoxView.swift in Sources */,
+				F5240FFB29B8C80A0045F6F2 /* ButtonView.swift in Sources */,
 				F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
 				F5240FF229B79D2F0045F6F2 /* EditTextLayoutView.swift in Sources */,
