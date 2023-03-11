@@ -23,6 +23,8 @@
 		F5240FF229B79D2F0045F6F2 /* EditTextLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FF129B79D2F0045F6F2 /* EditTextLayoutView.swift */; };
 		F5240FF729B851520045F6F2 /* RoundedRectangleShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FF629B851520045F6F2 /* RoundedRectangleShapeView.swift */; };
 		F5240FFB29B8C80A0045F6F2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FFA29B8C80A0045F6F2 /* ButtonView.swift */; };
+		F524100029BC51C60045F6F2 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FFF29BC51C60045F6F2 /* PostViewModel.swift */; };
+		F524100229BC54300045F6F2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524100129BC54300045F6F2 /* PostView.swift */; };
 		F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */; };
 		F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */; };
 		F5790C6029A23C1B0092AA9C /* TestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5790C5F29A23C1B0092AA9C /* TestOne.swift */; };
@@ -73,6 +75,8 @@
 		F5240FF129B79D2F0045F6F2 /* EditTextLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextLayoutView.swift; sourceTree = "<group>"; };
 		F5240FF629B851520045F6F2 /* RoundedRectangleShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleShapeView.swift; sourceTree = "<group>"; };
 		F5240FFA29B8C80A0045F6F2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F5240FFF29BC51C60045F6F2 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		F524100129BC54300045F6F2 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 		F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLayout.swift; sourceTree = "<group>"; };
 		F5790C5F29A23C1B0092AA9C /* TestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOne.swift; sourceTree = "<group>"; };
@@ -222,9 +226,35 @@
 			path = buttons;
 			sourceTree = "<group>";
 		};
+		F5240FFC29BC518C0045F6F2 /* apiCalling */ = {
+			isa = PBXGroup;
+			children = (
+				F5240FFE29BC51AA0045F6F2 /* view */,
+				F5240FFD29BC51A30045F6F2 /* viewmodel */,
+			);
+			path = apiCalling;
+			sourceTree = "<group>";
+		};
+		F5240FFD29BC51A30045F6F2 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				F5240FFF29BC51C60045F6F2 /* PostViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		F5240FFE29BC51AA0045F6F2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F524100129BC54300045F6F2 /* PostView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		F5790C5E29A23BF60092AA9C /* mvvm_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				F5240FFC29BC518C0045F6F2 /* apiCalling */,
 				F5790C5F29A23C1B0092AA9C /* TestOne.swift */,
 			);
 			path = mvvm_pattern;
@@ -391,6 +421,7 @@
 				F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
 				F5240FF229B79D2F0045F6F2 /* EditTextLayoutView.swift in Sources */,
+				F524100229BC54300045F6F2 /* PostView.swift in Sources */,
 				9F2071202885829B0069BE9D /* StackView.swift in Sources */,
 				F5BAC98D2958A70A000DD1FF /* LoginScreenOne.swift in Sources */,
 				F5C84C4C297FB1A300D240B0 /* LayoutWidget.swift in Sources */,
@@ -400,6 +431,7 @@
 				F5240FEC29B795630045F6F2 /* RowView.swift in Sources */,
 				F5C84C50297FE2A200D240B0 /* NavigationDrawer.swift in Sources */,
 				9F5F405B28AE8EFD0030AFA4 /* ColorView.swift in Sources */,
+				F524100029BC51C60045F6F2 /* PostViewModel.swift in Sources */,
 				F5240FEE29B796360045F6F2 /* BoxView.swift in Sources */,
 				F5C84C44297C52D300D240B0 /* TextView.swift in Sources */,
 				F5240FEA29B793E90045F6F2 /* ColumnView.swift in Sources */,
