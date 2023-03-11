@@ -25,6 +25,8 @@
 		F5240FFB29B8C80A0045F6F2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FFA29B8C80A0045F6F2 /* ButtonView.swift */; };
 		F524100029BC51C60045F6F2 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5240FFF29BC51C60045F6F2 /* PostViewModel.swift */; };
 		F524100229BC54300045F6F2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524100129BC54300045F6F2 /* PostView.swift */; };
+		F524100429BCA3710045F6F2 /* CounterScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524100329BCA3710045F6F2 /* CounterScreenView.swift */; };
+		F524100729BCA4060045F6F2 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524100629BCA4060045F6F2 /* CounterViewModel.swift */; };
 		F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */; };
 		F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */; };
 		F5790C6029A23C1B0092AA9C /* TestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5790C5F29A23C1B0092AA9C /* TestOne.swift */; };
@@ -77,6 +79,8 @@
 		F5240FFA29B8C80A0045F6F2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F5240FFF29BC51C60045F6F2 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		F524100129BC54300045F6F2 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		F524100329BCA3710045F6F2 /* CounterScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterScreenView.swift; sourceTree = "<group>"; };
+		F524100629BCA4060045F6F2 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 		F52F7F8729575F9D00A7E1C3 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 		F52F7F8929576BA200A7E1C3 /* TextViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLayout.swift; sourceTree = "<group>"; };
 		F5790C5F29A23C1B0092AA9C /* TestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOne.swift; sourceTree = "<group>"; };
@@ -251,9 +255,19 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		F524100529BCA3F10045F6F2 /* file_one */ = {
+			isa = PBXGroup;
+			children = (
+				F524100329BCA3710045F6F2 /* CounterScreenView.swift */,
+				F524100629BCA4060045F6F2 /* CounterViewModel.swift */,
+			);
+			path = file_one;
+			sourceTree = "<group>";
+		};
 		F5790C5E29A23BF60092AA9C /* mvvm_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				F524100529BCA3F10045F6F2 /* file_one */,
 				F5240FFC29BC518C0045F6F2 /* apiCalling */,
 				F5790C5F29A23C1B0092AA9C /* TestOne.swift */,
 			);
@@ -421,12 +435,14 @@
 				F5C84C4A297F9C4100D240B0 /* ButtonScreenView.swift in Sources */,
 				9FD5B37028840D8700D133F1 /* Swiftui_practiceApp.swift in Sources */,
 				F5240FF229B79D2F0045F6F2 /* EditTextLayoutView.swift in Sources */,
+				F524100429BCA3710045F6F2 /* CounterScreenView.swift in Sources */,
 				F524100229BC54300045F6F2 /* PostView.swift in Sources */,
 				9F2071202885829B0069BE9D /* StackView.swift in Sources */,
 				F5BAC98D2958A70A000DD1FF /* LoginScreenOne.swift in Sources */,
 				F5C84C4C297FB1A300D240B0 /* LayoutWidget.swift in Sources */,
 				F5790C6029A23C1B0092AA9C /* TestOne.swift in Sources */,
 				F52F7F8A29576BA200A7E1C3 /* TextViewLayout.swift in Sources */,
+				F524100729BCA4060045F6F2 /* CounterViewModel.swift in Sources */,
 				F52F7F8829575F9D00A7E1C3 /* ButtonLayoutView.swift in Sources */,
 				F5240FEC29B795630045F6F2 /* RowView.swift in Sources */,
 				F5C84C50297FE2A200D240B0 /* NavigationDrawer.swift in Sources */,

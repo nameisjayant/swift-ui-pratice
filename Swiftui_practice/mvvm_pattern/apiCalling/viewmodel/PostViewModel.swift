@@ -7,6 +7,14 @@
 
 import Foundation
 
+enum ApiState<T>{
+    
+    case Loading
+    case Success([T])
+    case Failure(String)
+    
+}
+
 struct Post : Codable , Identifiable{
     
     let id:Int
@@ -18,6 +26,7 @@ struct Post : Codable , Identifiable{
 class PostViewModel : ObservableObject {
     
     @Published var posts = [Post]()
+    @Published var apiState:ApiState<Post> = .Loading
     
     func fetchUsers() {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
@@ -35,9 +44,11 @@ class PostViewModel : ObservableObject {
                 let posts = try decoder.decode([Post].self, from: data)
                 DispatchQueue.main.async {
                     self.posts = posts
+                    self.apiState = .Success(posts)
                 }
             }catch {
                 print(error)
+                self.apiState = .Failure("\(error)")
             }
         }.resume()
         
