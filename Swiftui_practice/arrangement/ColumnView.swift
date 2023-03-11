@@ -10,13 +10,12 @@ import SwiftUI
 
 struct ColumnView: View {
     var body: some View {
-        VStack(alignment : .trailing){
+        VStack(alignment : .leading , spacing: 20){
             Text("Text one")
-            //Spacer()
             Text("Text two")
-           // Spacer()
             Text("Three")
-        }.frame(maxWidth : .infinity,maxHeight: .infinity)
+        }
+        .frame(maxWidth : .infinity,maxHeight: .infinity,alignment: .top)
     }
 }
 
