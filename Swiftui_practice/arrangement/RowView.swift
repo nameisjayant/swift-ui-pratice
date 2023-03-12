@@ -9,18 +9,18 @@ import SwiftUI
 
 struct RowView: View {
     var body: some View {
-        HStack(alignment : .bottom){
+        HStack{
             Text("Text one")
-            Spacer()
+            //Spacer()
             Text("Text two")
-            Spacer()
+            //Spacer()
             Text("Text Three")
-                .font(.largeTitle)
-        }.frame(maxWidth: .infinity,
+               
+        }
+        .frame(maxWidth: .infinity,
                 maxHeight: .infinity,
-                alignment: .center
+               alignment: .top
         )
-            .padding()
     }
 }
 
